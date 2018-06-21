@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 990px) {
+  #root, .app-container, body, html {
+    height: 100%;
+  }
+}
+
+.app-logo-inner {
+  position: absolute;
+  width: 75%;
+}
+
+.app-logo-outer{
+  animation: App-logo-spin infinite 20s linear;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
