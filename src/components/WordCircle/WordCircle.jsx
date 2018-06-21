@@ -8,9 +8,9 @@ class WordCircle extends React.Component {
           id="circle" 
           d="
             M 100, 100
-            m -75, 0
-            a 75,75 0 1,0 150,0
-            a 75,75 0 1,0 -150,0
+            m -100, 0
+            a 100,100 0 1,0 200,0
+            a 100,100 0 1,0 -200,0
             "
           fill="transparent"
         />
