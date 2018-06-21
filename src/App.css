@@ -17,6 +17,8 @@
 }
 
 .app-logo-outer{
+  font-family: monospace;
+  text-transform: uppercase;
   animation: App-logo-spin infinite 20s linear;
   width: 100%;
 }
